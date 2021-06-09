@@ -1,0 +1,76 @@
+.barramenu{
+    width: 100%;
+    background-color: black;
+    height: 70px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.logo img{
+    margin-left: 470px;
+}
+
+#menu ul{
+    margin: 0; 
+    width: 400px;
+    list-style: none;
+    margin-left: 1090px;
+    display: block;
+    margin-top: -60px;
+}
+
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 10px 10px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Segoe UI',sans-serif;
+}
+
+#menu ul li a:hover{
+     color: rgb(212, 109, 13);
+}
+
+
+.botoes{
+    width: 80%;
+    margin-top: -170px;
+    margin-left: 420px;
+    position: relative;
+}
+
+.imagem{
+    padding-top: 15px;
+    margin-left: -1px;
+    position: relative;
+}
+
+.navegadores ul li{
+    list-style: none;
+    margin-top: 150px;
+    display: inline-block;
+    margin-left: 300px;
+    left: 10%;
+    position: relative;  
+}
+
+.navegadores li{
+    overflow: hidden;
+}
+
+.navegadores:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,73 @@
+.barramenu{
+    width: 100%;
+    background-color: black;
+    height: 70px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.logo img{
+    margin-left: 470px;
+}
+
+#menu ul{
+    margin: 0; 
+    width: 400px;
+    list-style: none;
+    margin-left: 1090px;
+    display: block;
+    margin-top: -60px;
+}
+
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 10px 10px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Segoe UI',sans-serif;
+}
+
+#menu ul li a:hover{
+     color: rgb(212, 109, 13);
+}
+
+.design {
+    margin-top: 5%;
+    margin-left: 850px;
+    letter-spacing: 1px;
+}
+
+.modelagem{
+    margin-top: 39px;
+    margin-left: 850px;
+    letter-spacing: 1px;
+}
+
+.dev{
+    margin-top: 60px;
+    margin-left:850px;
+    letter-spacing: 1px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Segoe UI' ,sans-serif;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI',sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,92 @@
+.tabela{
+    margin-top: -23%;
+}
+
+form{
+   margin-top: 500%;
+   font-size: 16px;
+   background: #ccc;
+   max-width: 500px;
+   margin: 0 auto;
+   padding: 0 10px 10px;
+   border-radius: 10px;
+   position: relative;
+   
+}
+
+h1{
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+input, textarea{
+    width: 470px;
+    padding: 10px;
+}
+
+.enviar input{
+     background: rgb(177, 95, 2);
+     height: 40px;
+     width: 150px;
+     font-weight: bold;
+     border-radius: 10px;
+     border: 1px solid;
+     color: #fff;  
+     cursor: pointer;
+}
+.enviar input:hover{
+    background: rgb(88, 34, 3);
+}
+
+textarea{
+    width: 470px;
+    height: 120px;
+    line-height: 20px;
+}
+
+.barramenu{
+    width: 100%;
+    background-color: black;
+    height: 70px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.logo img{
+    margin-left: 470px;
+}
+
+#menu ul{
+    margin: 0; 
+    width: 400px;
+    list-style: none;
+    margin-left: 1090px;
+    display: block;
+    margin-top: -60px;
+}
+
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 10px 10px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Segoe UI',sans-serif;
+}
+
+#menu ul li a:hover{
+     color: rgb(212, 109, 13);
+}
+
+.imagem_fundo{
+    margin-top: 15px;
+}
